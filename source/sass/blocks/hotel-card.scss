@@ -1,0 +1,135 @@
+@media(min-width: $desktop-width) { 
+.hotel-card{
+    width: 340px;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .hotels-link{
+    width: 299px; 
+    height: 206px;
+    display: block;
+  }
+
+  .hotels-link:hover{
+    opacity: 0.6;
+  }
+
+  .hotels-link:focus{
+    outline: 4px solid #83B3D3;
+  }
+
+  .hotels-link:active{
+    opacity: 0.3;
+    outline: none;
+  }
+
+  .hotel-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hotel-card-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0;
+    margin-top: 16px;
+    flex-basis: 100%;
+  }
+
+  .hotel-card-description{
+    line-height: 23px;
+    width: 60px;
+    color: #333333;
+    margin: 16px 0;
+    flex-basis: 53%;
+  }
+
+  .hotel-card-price{
+    line-height: 23px;
+    flex-basis: 47%;
+    color: #333333;
+    margin: 16px 0px ;
+  }
+
+  .button-detail.button-form{
+    font-size: 16px;
+    width: 133px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .hotel-card-favorites.blue-button{
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    width: 140px;
+    text-align: center;
+    line-height: 21px;
+    padding: 8px 0;
+  }
+
+  .hotel-card-favorites:hover{
+    outline: 1px solid #756257;
+    border-radius: 4px;
+  }
+
+  .hotel-card-favorites-added{
+    background-color: #7DB54F;
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 4px;
+    width: 140px;
+    font-family: "PT Sans", sans-serif;
+    cursor: pointer;
+    padding: 8px 0;
+  }
+
+  .hotel-card-favorites-added:hover{
+    background: #6C9E42;
+    outline: none;
+  }
+
+  .hotel-card-favorites-added:focus{
+    outline: 3px solid #756257;
+  }
+
+  .hotel-card-favorites-added:active{
+    outline: none;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .stars-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 21px;
+    align-items: center;
+  }
+
+  .stars-item:not(:nth-last-child(1)){
+    padding-right: 7px;
+  }
+
+  .hotel-card-rating{  
+    width: 160px;
+    height: 37px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 16px;
+  }
+}

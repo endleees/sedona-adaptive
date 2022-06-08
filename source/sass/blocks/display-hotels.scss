@@ -1,0 +1,98 @@
+@media(min-width: $desktop-width) { 
+.display-settings{
+    display: flex;
+    margin: 44px auto 53px auto;
+    width: 1057px;
+    height: 48px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .found-hotels{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    text-transform: uppercase;
+  }
+
+  .number-hotels{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 39px;
+    
+  }
+
+  .sorting-container{
+    border: 2px solid #E6E6E6;
+    border-radius: 4px;
+    width: 284px;
+    margin-left: auto;
+    margin-right: 81px;
+  }
+
+  .select-control{
+    outline: none;
+    border: none;
+    line-height: 23px;
+    width: 100%;
+    font: inherit;
+    padding: 12px 18px;
+    color:#333333;
+    background-image: url("../images/arrow-bottom.svg") ;
+    background-repeat: no-repeat;
+    background-position: right 19px center;
+    appearance: none;
+    border-radius: 4px;
+  }
+
+  .select-control:hover,.select-control:focus{
+    outline: 2px solid #83B3D3;
+  }
+
+  .select-control:active{
+    opacity: 0.3;
+    outline: none;
+  }
+
+  .button-sorting{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    padding: 10.5px 22px;
+    border: 2px solid #E6E6E6;
+    border-radius: 4px;
+  }
+
+  .button-sorting.button-selected{
+    border: 2px solid #000000;
+    border-radius: 4px;
+  }
+
+  .button-sorting:not(:nth-last-child(1)){
+    margin-right: 8px;
+  }
+
+  .button-sorting:hover:not(:nth-child(1)),.button-sorting:focus:not(:nth-child(1)){
+    border: 2px solid #83B3D3;
+    outline: none;
+  }
+
+  .sorting-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    fill: black;
+  }
+  
+  .hotel-list{
+    display: grid;
+    grid-template-columns: repeat(3, 339px);
+    margin: 0 auto;
+    gap: 10px 19px;
+    width: 1056px;
+    padding: 0;
+  }
+}

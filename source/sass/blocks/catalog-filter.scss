@@ -1,0 +1,120 @@
+@media(min-width: $desktop-width) { 
+.catalog-filter{
+    display: flex;
+    width: 1200px;
+    height: 276px;
+  }
+
+  .catalog-filter-group{
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  .catalog-filter-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .filter-list-group{
+    display: flex;
+    width: 100%;
+  }
+
+   .catalog-filter-group:nth-child(1){
+   
+    margin-left: 73px;
+    margin-top: 43px;
+  }
+
+  .catalog-filter-group:nth-child(2){
+    position: relative;
+    right: 43px;
+    margin-top: 42px;
+  }
+
+  .catalog-filter-title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    position: relative;
+    right: 5px;
+  }
+
+  .catalog-filter-item{
+    line-height: 23px;
+    width: 150px;
+  }
+  
+  /* control */
+  .control{
+    display: flex;
+    margin-bottom: 13px;
+    position: relative;
+  }
+
+  .control-input{
+    margin-right: 21px;
+    z-index: -1;
+  }
+
+  .control-mark{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: #FFFFFF;
+  }
+
+  .control-mark:hover{
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .control-mark:focus-within{
+    outline: 3px solid #83B3D3;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  .control-mark:active{
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .control-input[type="checkbox"]:checked + .control-mark{
+    background-image: url(../images/tick.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .control-radio{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+  }
+
+  .control-input[type="radio"]:checked + .control-radio::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: 5px;
+    background-color: #3F5E72;
+    border-radius: 50%;
+  }
+
+  .control-radio:focus-within{
+    outline: 3px solid #83B3D3;
+  }
+
+  .control-radio:active{
+    outline:none;
+  }
+}

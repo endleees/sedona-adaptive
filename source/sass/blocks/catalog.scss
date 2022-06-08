@@ -1,0 +1,26 @@
+@media(min-width: $desktop-width) { 
+.catalog-container{
+    background-image: url("../images/catalog-background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-color: #68A2CA;
+  }
+
+  .inner-header{
+    padding-top: 26px; 
+    padding-left: 64px;
+  }
+
+  .filter-title{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 78px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    left: 8px;
+    top:10px
+  }
+}

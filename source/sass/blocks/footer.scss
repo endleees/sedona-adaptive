@@ -1,0 +1,138 @@
+.footer-social-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  gap: 10%;
+  margin-top: 30px;
+}
+
+.footer-social-item {
+  background-color: #81B3D2;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button-img{
+  fill:#ffffff;
+}
+
+.footer-button-img:hover{
+  fill: #68A2CA;
+}
+
+.footer-button:focus{
+  outline: 3px solid #83B3D3;
+  border-radius: 10px;
+}
+
+.footer-button:focus > .footer-button-img{
+  fill: #68A2CA;
+}
+
+.footer-button:active{
+  opacity: 0.3;
+  outline: none;
+}
+
+.footer-phone{
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:black;
+  display: block;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.footer-phone:hover{
+  color: #756257;
+}
+
+.footer-phone:focus{
+  outline: 3px solid #83B3D3;
+  border-radius: 10px;
+  color: #756257;
+}
+
+.footer-phone:active{
+  opacity: 0.3;
+  outline: none;
+}
+
+
+@media(min-width: $desktop-width) { 
+.page-footer{
+  
+  }
+
+  .footer-social-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+    width: 25%;
+  }
+ 
+  .footer-social-item{
+    margin: auto 0;
+    text-align: center;
+    position: relative;
+  }
+
+  .footer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .footer-social{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 65px;
+    width: 30%;
+  }
+  .html-academy{
+    margin: 26px 56px 26px 70px;
+    padding: 16px;
+  }
+
+  .footer-contacts-img{
+    fill:#000000;
+  }
+
+  .footer-contacts-img:hover{
+    fill:#756257;
+  }
+
+  .html-academy:focus{
+    outline: 3px solid #83B3D3;
+    border-radius: 10px;
+  }
+
+  .html-academy:focus>.footer-contacts-img{
+    fill: #756257;
+  }
+
+  .html-academy:active{
+    opacity: 0.3;
+    outline: none;
+  }
+}

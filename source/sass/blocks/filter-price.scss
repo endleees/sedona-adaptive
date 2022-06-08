@@ -1,0 +1,104 @@
+@media(min-width: $desktop-width) { 
+.filter-price-title{
+    margin:0;
+    position: relative;
+    top:42px;
+    left:6px;
+    display: block;
+  }
+
+  .filter-price-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 72px;
+  }
+
+  .filter-price-table{
+    position: relative;
+    left: 6px;
+    top: 4px;
+  }
+
+  .filter-price-table-row{
+    display: flex;
+    border-radius: 4px;
+    width: 287px;
+    justify-content: center;
+  }
+
+  .filter-price-check{
+    position: relative;
+    width: 137px;
+    height: 42px;
+    padding-left: 14px;
+  }
+
+  .filter-min-price{
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .filter-max-price{
+    border-radius: 0px 4px 4px 0px;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .filter-price-span{
+    opacity: 0.3;
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    user-select: none;    
+    left: 75%;
+  }
+
+  .filter-min-price > .filter-price-span{
+    left: 79%;
+  }
+
+  .filter-price-input{
+    background: none;
+    color: white;
+    border-style: none;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .filter-price-input::-webkit-outer-spin-button,
+  .filter-price-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: auto;
+  }
+  
+  input[type=number]{
+    width:85px;
+    -moz-appearance: textfield;
+    line-height: 23px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .filter-price-check:hover{
+    opacity: 0.6;
+  }
+
+  .filter-price-check:focus-within{
+    box-shadow: 0px 0px 0px 3px  #83B3D3,
+    0px 0px 0px 3px  #83B3D3 inset ;
+  }
+
+  .filter-price-check:active{
+    background: #756257;
+    opacity: 1;
+    outline: none;
+    box-shadow: none;
+  }
+}

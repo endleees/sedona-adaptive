@@ -1,0 +1,109 @@
+@media(min-width: $desktop-width) { 
+.range-scale {
+    position: relative;
+    width: 277px;
+    height: 4px;
+    background-color: #FFFFFF;
+    left: 18px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 29px;
+  }
+
+  .range-bar {
+    position: absolute;
+    height: 4px;
+    background-color: white;
+  }
+
+  .range-toggle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .range-toggle:focus {
+    outline: 3px solid #83B3D3;
+  }
+
+  .range-toggle:active{
+    outline: 2px solid #83B3D3;
+  }
+
+  .toggle-min {
+    top: -8px;
+    left: -10px;
+  }
+
+  .toggle-max {
+    top: -8px;
+    right: -10px;
+  }
+
+  .buttons-filter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 18px 73px 0px 83px;
+  }
+
+  .blue-button.submit-button{
+    background: #83B3D3;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color:white;
+    width: 160px;
+    height: 48px;
+    font-family: "PT Sans", sans-serif;
+    border-radius: 4px;
+    border-style: none;
+    padding: 0;
+  }
+
+  .blue-button.submit-button:hover{
+    background: #68A2CA;
+  }
+
+  .blue-button.submit-button:focus{
+    outline: 3px solid #FFFFFF;
+    background: #68A2CA;
+  }
+
+  .blue-button.submit-button:active{
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+  }
+
+  .reset{
+    font-size: 18px;
+    line-height: 23px;
+    border-width: 0;
+    padding: 0;
+    background: none;
+    color:white;
+    width: 80px;
+    height: 26px;
+    margin-top: 19px;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .reset:hover{
+    opacity: 0.6;
+  }
+
+  .reset:focus{
+    outline: 3px solid  #83B3D3;
+    outline-offset: 3px;
+    border-radius: 1px;
+  }
+
+  .reset:active{
+    opacity: 0.3;
+    outline: none;
+  } 
+}
